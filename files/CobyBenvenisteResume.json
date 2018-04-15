@@ -1,0 +1,183 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "projects": "Recent Selected Projects",
+    "awards": "",
+    "work": "Work Experience",
+    "skills": "Skills"
+  },
+  "basics": {
+    "name": "Coby Benveniste",
+    "email": "coby.benveniste@gmail.com",
+    "phone": "+972 58 681 8698",
+    "website": "http://cobybenveniste.com",
+    "location": {
+      "address": "Tel Aviv-Yafo, Israel"
+    }
+  },
+  "education": [
+    {
+      "institution": "",
+      "location": "",
+      "area": "",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "",
+      "gpa": ""
+    }
+  ],
+  "work": [
+    {
+      "company": "Signals Analytics",
+      "position": "Software Developer, Data Scientist, Tableau Specialist",
+      "website": "",
+      "endDate": "Present",
+      "highlights": [
+        "Worked as a Software Developer and Tableau Expert for a big data analytics company.",
+        "Developed and maintained a tool for unstructured text classification based on rules specified by analysts, now used in all projects in the company.",
+        "Developed innovative models for extracting insights from big data in various industries.",
+        "Became the point person on all Tableau related work and optimizations in the company."
+      ],
+      "location": "Netanya, Israel",
+      "startDate": "January 2016"
+    },
+    {
+      "highlights": [
+        "Worked as an Independent Software Developer for a realty investments company.",
+        "Developed a system for automation of tax reporting to the federal government."
+      ],
+      "company": "Jamestown, L.P.",
+      "position": "Software Developer",
+      "location": "Atlanta, GA",
+      "startDate": "September 2015",
+      "endDate": "December 2015"
+    },
+    {
+      "highlights": [
+        "Worked as an In-House Software Developer creating internal tools for an IT services company.",
+        "Developed a scheduling tool for use by the Field Services department to schedule onsite visits by engineers.",
+        "Developed a price calculator for use by the Commercial Department to onboard new clients and give price estimates.",
+        "Developed various proof-of-concept projects for automation, DevOps, and reporting."
+      ],
+      "company": "Leapfrog Services, Inc.",
+      "position": "Software Developer",
+      "location": "Atlanta, GA",
+      "startDate": "June 2014",
+      "endDate": "September 2015"
+    },
+    {
+      "highlights": [
+        "Worked as the Lead Software Developer for a recruiting startup.",
+        "Developed data scraping tools for scraping various online profiles of potential new hires for high tech companies in the Philadelphia region.",
+        "Developed map-based visualization tools to see where various clients were located in relation to possible new hires."
+      ],
+      "company": "IT Pros Philadelphia",
+      "position": "Software Developer",
+      "location": "Philadelphia, PA (Remote)",
+      "startDate": "November 2014",
+      "endDate": "June 2015"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Python",
+        "C#",
+        "Ruby",
+        "SQL",
+        "Elixir"
+      ],
+      "name": "Programming Languages (experienced)"
+    },
+    {
+      "keywords": [
+        "JavaScript",
+        "Node.JS",
+        "TypeScript",
+        "HTML",
+        "PHP",
+        "PERL"
+      ],
+      "name": "Programming Languages (limited experience)"
+    },
+    {
+      "keywords": [
+        "Git",
+        "AWS",
+        "Docker",
+        "Tableau",
+        "Visual Studio",
+        "Sublime Text"
+      ],
+      "name": "Applications (experienced)"
+    },
+    {
+      "keywords": [
+        "Pentaho",
+        "Chef",
+        "Igor Pro",
+        "RabbitMQ",
+        "Atom Editor"
+      ],
+      "name": "Applications (limited experience)"
+    },
+    {
+      "keywords": [
+        "MySQL",
+        "MSSQL",
+        "PostgreSQL",
+        "Redis",
+        "ElasticSearch"
+      ],
+      "name": "Databases (experienced)"
+    },
+    {
+      "keywords": [
+        "MacOS",
+        "Windows",
+        "Mac OS X",
+        "Various Linux Flavors"
+      ],
+      "name": "Operating Systems (experienced)"
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [
+        "Python",
+        "Redis",
+        "MySQL",
+        "Docker"
+      ],
+      "name": "Artemis - The High Performance Data Hunter",
+      "description": "An automated high performance data scraper designed to hunt for data, structure the retrieved data, and input it into a database. Anything that fails to find the correct data is crowdsourced to allow the application to learn where to find the correct data."
+    },
+    {
+      "keywords": [
+        "Elixir",
+        "Phoenix Framework"
+      ],
+      "name": "WoPair",
+      "description": "An application currently in development to allow people to find nearby users with like-minded preferences to workout with.",
+      "url": "https://github.com/daVinciCEB/wopair"
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
