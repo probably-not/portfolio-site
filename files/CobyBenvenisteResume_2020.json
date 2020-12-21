@@ -1,0 +1,182 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "projects": "Recent Selected Projects",
+    "awards": "",
+    "work": "Work Experience",
+    "skills": "Skills"
+  },
+  "basics": {
+    "name": "Coby Benveniste",
+    "email": "coby.benveniste@gmail.com",
+    "phone": "+972 58 681 8698",
+    "website": "https://cobybenveniste.com",
+    "location": {
+      "address": "Tel Aviv-Yafo, Israel"
+    }
+  },
+  "education": [
+    {
+      "institution": "",
+      "location": "",
+      "area": "",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "",
+      "gpa": ""
+    }
+  ],
+  "work": [
+    {
+      "highlights": [
+        "Worked as the senior engineer on the Engineering team at a social engagement platform company.",
+        "Developed new services in Ruby, Elixir, and Golang, and helped design the 2.0 architecture of the company utilizing event sourcing designs.",
+        "Maintained all legacy services of the company, and led the rewrites of various legacy components into the brand new architecture.",
+        "Lead a team of developers in developing and designing the OpenWeb Moderation 2.0 platform, which handles ingesting, tagging, and moderating all of the user generated content of the platform at high scale, with a focus on speed, reliability, and efficiency.",
+        "Currently, leading the Labs efforts on the Backend of OpenWeb, working as a \"Special Forces Engineer\" to handle highly advanced projects in short timeframes, helping push the technology of the OpenWeb Backend Infrastructure to new levels."
+      ],
+      "company": "OpenWeb (Formerly Spot.IM)",
+      "position": "Backend Engineer, Tech Lead, Staff Engineer",
+      "location": "Tel Aviv-Yafo, Israel",
+      "startDate": "July 2018",
+      "endDate": "Present"
+    },
+    {
+      "company": "Signals Analytics",
+      "position": "Software Developer, Data Scientist, Tableau Specialist",
+      "website": "",
+      "endDate": "April 2018",
+      "highlights": [
+        "Worked as a Software Developer and Tableau Expert for a big data analytics company.",
+        "Changed many paradigms in the company by creating new tools and updating old ones to work much more efficiently.",
+        "Developed and maintained a tool for unstructured text classification based on rules specified by analysts, now used in all projects in the company.",
+        "Developed innovative models for extracting insights from big data in various industries.",
+        "Became the point person on all Tableau related work and optimizations in the company."
+      ],
+      "location": "Netanya, Israel",
+      "startDate": "January 2016"
+    },
+    {
+      "highlights": [
+        "Worked as an Independent Software Developer for a realty investments company.",
+        "Developed a system for automation of tax reporting to the federal government."
+      ],
+      "company": "Jamestown, L.P.",
+      "position": "Software Developer",
+      "location": "Atlanta, GA",
+      "startDate": "September 2015",
+      "endDate": "December 2015"
+    },
+    {
+      "highlights": [
+        "Worked as an In-House Software Developer creating internal tools for an IT services company.",
+        "Developed a scheduling tool for use by the Field Services department to schedule onsite visits by engineers.",
+        "Developed a price calculator for use by the Commercial Department to onboard new clients and give price estimates.",
+        "Developed various proof-of-concept projects for automation, DevOps, and reporting."
+      ],
+      "company": "Leapfrog Services, Inc.",
+      "position": "Software Developer",
+      "location": "Atlanta, GA",
+      "startDate": "June 2014",
+      "endDate": "September 2015"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Go",
+        "Elixir",
+        "Ruby",
+        "SQL"
+      ],
+      "name": "Programming Languages (experienced)"
+    },
+    {
+      "keywords": [
+        "Python",
+        "TypeScript",
+        "C#"
+      ],
+      "name": "Programming Languages (limited experience)"
+    },
+    {
+      "keywords": [
+        "Git",
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "Kafka",
+        "RabbitMQ",
+        "Tableau"
+      ],
+      "name": "Applications (experienced)"
+    },
+    {
+      "keywords": [
+        "MySQL",
+        "ElasticSearch",
+        "Redis"
+      ],
+      "name": "Databases (experienced)"
+    },
+    {
+      "keywords": [
+        "MacOS",
+        "Windows",
+        "Various Linux Flavors"
+      ],
+      "name": "Operating Systems (experienced)"
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [
+        "Go",
+        "MySQL",
+        "Redis",
+        "Kubernetes",
+        "SQS",
+        "Kafka"
+      ],
+      "name": "OpenWeb Moderation 2.0",
+      "description": "A platform for ingesting, tagging, and moderating millions of pieces of user generated content at high scale with a focus on speed, reliability, and efficiency.",
+      "url": "https://bit.ly/2FM0sRi"
+    },
+    {
+      "keywords": [
+        "Go",
+        "Redis",
+        "SQS",
+        "Kafka"
+      ],
+      "name": "OpenWeb Import Infrastructure",
+      "description": "An infrastructure for importing terabytes of data from external partners at high speed."
+    },
+    {
+      "keywords": [
+        "Elixir"
+      ],
+      "name": "Starship Web Server",
+      "url": "https://github.com/coby-spotim/starship",
+      "description": "A reactor style web server built from the ground up in pure Elixir."
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
