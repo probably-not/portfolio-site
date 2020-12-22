@@ -218,13 +218,14 @@
                     </div>-->
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Rulebase Classification Algorithm</h3>
+                        <h3>OpenWeb Moderation 2.0</h3>
                         <p>
-                            A proprietary classification algorithm for Signals Analytics. The project entailed designing and developing a Natural Language Processing algorithm to take massive amounts of data points, each with its own text description, and then classify what each data point is talking about, based on a set of rules provided.
+                            A proprietary platform for OpenWeb (formerly Spot.IM). The mission was to build a complete infrastructure for ingesting, tagging, and moderating millions of pieces of user generated content per minute across all of the OpenWeb platform. The project was build with high scale, reliability, and efficiency in mind.
                         </p>
                         <p>
-                            After the application was built as a monolith, it was then broken it up into decoupled microservices to deploy as highly scalable cloud-based workers. The project is developed primarily in C# and ASP.NET Web API, using ElasticSearch as a search algorithm, and RabbitMQ as a task queue.
+                            The project was built using an event sourced architecture with several microservices managing different parts of the system. It was written in Go, utilizing SQS and Kafka as event queues, and deployed on Kubernetes. After the creation of the system, a case study was done with Google's Jigsaw team on the effect of nudges and real-time moderation on users.
                         </p>
+                        <a href="https://www.openweb.com/blog/openweb-improves-community-health-with-real-time-feedback-powered-by-jigsaws-perspective-api/" target="_blank">View Case Study</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -236,59 +237,40 @@
                     </div>-->
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>WoPair - The Workout Pairer</h3>
+                        <h3>Starship Web Server</h3>
                         <p>
-                            An application built as a personal endeavor, to allow people to find nearby users with likeminded preferences to workout with. The application utilizes location information and a user database to generate a list of nearby users, with user preferences listed and a match percentage of how closely each user matches the preferences of the current user.
+                            A project built as a personal endeavor, to build a high speed web server in pure Elixir.
                         </p>
                         <p>
-                            The project was developed in two phases. The backend phase was developed using Elixir and the Phoenix Framework, to allow for maximum performance. The frontend phase is currently in development as a web application, an iOS application, and and Android application.
+                            The project began with me wanting to learn how to build a reactor designed web server that can overtake the TechEmpower benchmarks for Elixir and Erlang's current benchmarks. It expanded a lot as I learned how the entire HTTP protocol worked, and I am currently working on expanding it into a complete webserver.
                         </p>
-                        <a href="https://github.com/daVinciCEB/wopair" target="_blank">View Project</a>
+                        <a href="https://github.com/coby-spotim/starship" target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
 
-                <div class="project no-image shadow-large">
-                    <!--<div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>-->
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>RecruitMe</h3>
-                        <p>
-                            An application built as a personal endeavor, to allow people to find nearby jobs and job seekers with likeminded preferences. The application utilizes location information and a user database to generate a list of nearby users, with user preferences listed and a match percentage of how closely each user matches the preferences of the current user.
-                        </p>
-                        <p>
-                            The project was developed in two phases. The backend phase was developed using Elixir and the Phoenix Framework, to allow for maximum performance. The frontend phase is currently in development as a web application, an iOS application, and and Android application.
-                        </p>
-                        <a href="https://github.com/daVinciCEB/recruitme" target="_blank">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project no-image shadow-large">
-                    <!--<div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>-->
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Tax Automation Process</h3>
-                        <p>
-                            A proprietary series of automation scripts for use by Jamestown, L.P. The scripts automate the process of sending the tax data necessary for the United States Internal Revenue Service to create and retrieve tax returns tax returns from their e-File system.
-                        </p>
-                        <p>
-                            The project was developed using the Selenium Browser Automation Framework for automating the filing of the returns, along with Ruby scripts, and C# programs (for a nice usable form for Windows computers).
-                        </p>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
             </div>
             <div class="row"> <!-- Start More Projects -->
                 <a id="view-more-projects" href="#" class="btn btn-primary">View More Projects</a>
                 <div id="more-projects" class="row">
+                    <div class="project no-image shadow-large">
+                        <!--<div class="project-image">
+                            <img src="images/project.jpg" />
+                        </div>-->
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Rulebase Classification Algorithm</h3>
+                            <p>
+                                A proprietary classification algorithm for Signals Analytics. The project entailed designing and developing a Natural Language Processing algorithm to take massive amounts of data points, each with its own text description, and then classify what each data point is talking about, based on a set of rules provided.
+                            </p>
+                            <p>
+                                After the application was built as a monolith, it was then broken it up into decoupled microservices to deploy as highly scalable cloud-based workers. The project is developed primarily in C# and ASP.NET Web API, using ElasticSearch as a search algorithm, and RabbitMQ as a task queue.
+                            </p>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
                     <div class="project no-image shadow-large">
                         <!--<div class="project-image">
                             <img src="images/project.jpg" />
@@ -301,37 +283,6 @@
                             </p>
                             <p>
                                 In addition to designing analytics models, complex visualizations were developed to display data in new and innovative ways, creating algorithms to solve specific problems for the company, as well as developing new features for the company’s platform. The project is developed primarily in Tableau, using Tableau’s internal SQL-like language.
-                            </p>
-                        </div>
-                        <!-- End .project-info -->
-                    </div>
-                    <!-- End .project -->
-                    <div class="project no-image shadow-large">
-                        <!--<div class="project-image">
-                            <img src="images/project.jpg" />
-                        </div>-->
-                        <!-- End .project-image -->
-                        <div class="project-info">
-                            <h3>Field Services Department Scheduling Tool</h3>
-                            <p>
-                                A proprietary scheduling tool for Leapfrog Services, Inc. The tool integrates the company’s internal ticketing system and Microsoft Exchange calendar to schedule appointments for the Field Services Department. The project was primarily developed in C#.
-                            </p>
-                        </div>
-                        <!-- End .project-info -->
-                    </div>
-                    <!-- End .project -->
-                    <div class="project no-image shadow-large">
-                        <!--<div class="project-image">
-                            <img src="images/project.jpg" />
-                        </div>-->
-                        <!-- End .project-image -->
-                        <div class="project-info">
-                            <h3>Data Scraping and Map Visualization Project</h3>
-                            <p>
-                                A set of web scrapers for IT Pros Philadelphia designed to extract information from various websites. The data was then manipulated into a format that was usable by the company, and placed into the company’s database and CRM.
-                            </p>
-                            <p>
-                                This database was then populated with data about various clients, and a frontend page that used the data in the database to plot where each client was on a map, and display information about the client. The scrapers were primarily developed in Ruby, using various REST APIs to collect the data. The frontend was primarily developed using HTML, CSS, JavaScript, Leaflet.JS, Twitter Bootstrap CSS, and MySQL.
                             </p>
                         </div>
                         <!-- End .project-info -->
@@ -391,17 +342,14 @@
                 </div>
                 <div class="col-sm-5 social">
                     <ul>
-<!--                         <li>
-                            <a href="https://cobybenveniste.com/blog" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i></a>
-                        </li>
- -->                        <li>
+                        <li>
                             <a href="https://github.com/coby-spotim" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://github.com/davinciceb" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/coby-benveniste/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/coby-benveniste/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                            <a href="https://github.com/davinciceb" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
                             <a href="https://gitlab.com/daVinciCEB" target="_blank"><i class="fa fa-gitlab" aria-hidden="true"></i></a>
