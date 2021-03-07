@@ -158,7 +158,7 @@
         "Elixir"
       ],
       "name": "Starship Web Server",
-      "url": "https://github.com/coby-spotim/starship",
+      "url": "https://github.com/probably-not/starship",
       "description": "A reactor style web server built from the ground up in pure Elixir."
     }
   ],
