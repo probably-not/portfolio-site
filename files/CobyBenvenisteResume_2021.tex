@@ -1,0 +1,147 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+    \usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Coby Benveniste}}\\
+	Tel Aviv-Yafo, Israel $\cdot$ coby.benveniste@gmail.com $\cdot$ +972 58 681 8698 $\cdot$ https://cobybenveniste.com\\
+\end{center}
+
+
+
+%==== Experience ====%
+\header{Work Experience}
+\vspace{1mm}
+
+\textbf{Arpeely} \hfill Tel Aviv-Yafo, Israel\\
+\textit{Senior Backend Engineer} \hfill March 2021 - Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Working as the senior engineer at an early stage ad-tech startup.
+	\item Developed features and services with a focus on high performance Go and highly scalable infrastructure.
+	\item Architected various systems across the entire platform, with a focus on extremely low latencies (\textgreater{}10ms) and extremely high scale (\textless{}1M RPS).
+	\item Built out all of the company\textquotesingle{}s SRE and monitoring functionality, creating cross-cluster cross-region observability and alerting.
+\end{itemize}
+\textbf{OpenWeb (Formerly Spot.IM)} \hfill Tel Aviv-Yafo, Israel\\
+\textit{Backend Engineer, Tech Lead, Staff Engineer} \hfill July 2018 - March 2021\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Worked as the senior engineer on the Engineering team at a social engagement platform company.
+	\item Developed new services in Ruby, Elixir, and Go, and helped design the 2.0 architecture of the company utilizing event sourcing designs.
+	\item Maintained all legacy services of the company, and led the rewrites of various legacy components into the brand new architecture.
+	\item Lead a team of developers in developing and designing the OpenWeb Moderation 2.0 platform, which handles ingesting, tagging, and moderating all of the user generated content of the platform at high scale, with a focus on speed, reliability, and efficiency.
+	\item Lead the Labs efforts on the Backend of OpenWeb, working as a \textquotedbl{}Special Forces Engineer\textquotedbl{} to handle highly advanced projects in short timeframes, helping push the technology of the OpenWeb Backend Infrastructure to new levels.
+\end{itemize}
+\textbf{Signals Analytics} \hfill Netanya, Israel\\
+\textit{Software Developer, Data Scientist, Tableau Specialist} \hfill January 2016 - April 2018\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Worked as a Software Developer and Tableau Expert for a big data analytics company.
+	\item Developed and maintained a tool for unstructured text classification based on rules specified by analysts, now used in all projects in the company.
+	\item Developed innovative models for extracting insights from big data in various industries.
+	\item Became the point person on all Tableau related work and optimizations in the company.
+\end{itemize}
+\textbf{Jamestown, L.P.} \hfill Atlanta, GA\\
+\textit{Software Developer (Freelance)} \hfill September 2015 - December 2015\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Worked for a realty investments company, developing a system for automation of tax reporting to the federal government.
+\end{itemize}
+\textbf{Leapfrog Services, Inc.} \hfill Atlanta, GA\\
+\textit{Software Developer} \hfill June 2014 - September 2015\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Worked at an IT services company, developing various proprietary tools used across multiple departments to streamline day to day work.
+\end{itemize}
+
+\header{Skills}
+\begin{tabular}{ l l }
+	Programming Languages (experienced):        & Go, Elixir, Ruby, SQL                                       \\
+	Programming Languages (limited experience): & Python, TypeScript, C\#                                     \\
+	Applications (experienced):                 & Git, AWS, GCP, Docker, Kubernetes, Grafana, Kafka           \\
+	Databases (experienced):                    & MySQL, Postgresql, ElasticSearch, Redis, Prometheus, Thanos \\
+\end{tabular}
+\vspace{2mm}
+
+\header{Recent Selected Projects}
+{\textbf{OpenWeb Moderation 2.0}} {\sl Go, MySQL, Redis, Kubernetes, SQS, Kafka} \hfill https://bit.ly/2FM0sRi\\
+A platform for ingesting, tagging, and moderating millions of pieces of user generated content at high scale with a focus on speed, reliability, and efficiency.\\
+\vspace*{2mm}
+{\textbf{Starship Web Server}} {\sl Elixir} \hfill https://github.com/probably-not/starship\\
+A reactor style web server built from the ground up in pure Elixir.\\
+\vspace*{2mm}
+
+
+
+\ 
+\end{document}
